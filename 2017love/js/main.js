@@ -46,7 +46,7 @@ $(function() {
 		var sex = getSex();
 		var t = new Date();
 		
-		$.getJSON("http://wxcms.i-dalian.cn/weixin/2017love/php/index.php?name=" + name + "&sex=" + sex + "&ssid=" + getSsid() + "&t=" + t.getTime(), function(response) {
+		$.getJSON("http://47.93.249.184/gcks_2017love/2017love/php/index.php?name=" + name + "&sex=" + sex + "&ssid=" + getSsid() + "&t=" + t.getTime(), function(response) {
 			var data = response;
 			var html = "";
 //			console.log(response);
