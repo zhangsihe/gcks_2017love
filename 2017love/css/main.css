@@ -1,0 +1,180 @@
+ html {
+ 	height: 100%;
+ }
+ 
+ * {
+ 	padding: 0;
+ 	margin: 0;
+ 	box-sizing: border-box;
+ }
+ 
+ li {
+ 	list-style: none;
+ }
+ 
+ a,
+ a:link,
+ a:hover,
+ a:visited {
+ 	text-decoration: none;
+ }
+ 
+ body {
+ 	background: url(../img/bg.jpg) repeat;
+ 	font-family: arial, "microsoft yahei";
+ 	background-size: 100%;
+ 	background-position: 50% 0%;
+ 	background-attachment: fixed;
+ 	text-align: left;
+ }
+ 
+ .main {
+ 	width: 653px;
+ 	height: 918px;
+ 	margin: auto;
+ 	margin-top: 120px;
+ }
+ 
+ .answer {
+ 	width: 653px;
+ 	height: 718px;
+ 	margin: auto;
+ 	display: none;
+ 	margin-top: 85px;
+ }
+ 
+ .answer .button02 {
+ 	width: 426px;
+ 	height: 84px;
+ 	background: url(../img/button02.png);
+ 	margin-left: 94px;
+ }
+ 
+ .answer .center_bg {
+ 	width: 653px;
+ 	height: 612px;
+ 	background: url(../img/center_bg.png) repeat-y;
+ }
+ 
+ .answer .center_bg img {
+ 	border: none;
+ 	width: 612px;
+ 	height: 612px;
+ 	background: #c11d1e;
+ }
+ 
+ .answer .center_bg_img {
+ 	margin-left: 15px;
+ 	border: none;
+ }
+ 
+ .agin_button {
+ 	margin: auto;
+ 	width: 626px;
+ 	height: 115px;
+ 	background: url(../img/button.png) no-repeat;
+ 	margin-top: 50px;
+ 	border: none;
+ 	margin-left: 15px;
+ }
+ 
+ .top_bg {
+ 	width: 653px;
+ 	height: 41px;
+ 	background: url(../img/top_bg.png) no-repeat;
+ 	padding: 0;display:block
+ }
+ 
+ .center_bg {
+ 	width: 653px;
+ 	height: 821px;
+ 	background: url(../img/center_bg.png) repeat-y;
+ 	padding: 0;display:block
+ }
+ 
+ .heart {
+ 	width: 138px;
+ 	height: 98px;
+ 	background: url(../img/2017.png) no-repeat;
+ 	margin-left: 40px;
+ }
+ 
+ .title {
+ 	width: 564px;
+ 	height: 87px;
+ 	background: url(../img/title.png) center no-repeat;
+ 	margin: 30px auto;
+ }
+ 
+ .input_title {
+ 	width: 361px;
+ 	height: 48px;
+ 	background: url(../img/input_title.png)no-repeat;
+ 	margin-left: 50px;
+ 	margin-top: 40px;
+ }
+ 
+ .footer_bg {
+ 	width: 653px;
+ 	height: 56px;
+ 	background: url(../img/footer_bg.png) no-repeat;
+ 	padding: 0;display:block
+ }
+ 
+ .t-input {
+ 	width: 539px;
+ 	height: 113px;
+ 	border: 6px solid #000000;
+ 	border-radius: 0;
+ 	font-size: 54px;
+ 	text-indent: 20px;
+ 	margin: 30px 0 30px 50px;
+ 	outline: 0;
+ 	-web-kit-appearance: none;
+ 	-moz-appearance: none;
+ 	font-family: arial, "microsoft yahei";
+ 	-moz-box-shadow: inset 5px 5px 10px #CCC;
+ 	-webkit-box-shadow: inset 5px 5px 10px #CCC;
+ 	box-shadow: inset 5px 5px 10px #CCC;
+ }
+ 
+ ul {
+ 	list-style: none
+ }
+ 
+ .clear {
+ 	clear: both
+ }
+ /*清除浮动*/
+ /*单选按钮样式，可以定义想要的样式*/
+ 
+ .radio_box ul li {
+ 	background: url(../img/no_checked.png) 5px center no-repeat;
+ 	/*未选中项的样式*/
+ 	padding-left: 50px;
+ 	margin: 0px 0px 0px 50px;
+ 	height: 36px;
+ 	line-height: 36px;
+ 	font-size: 18px;
+ 	color: #575757;
+ 	cursor: default;
+ 	display: inline-block;
+ }
+ 
+ .radio_box ul li.selected {
+ 	background: url(../img/checked.png) 5px center no-repeat
+ }
+ 
+ .radio_box ul li:hover {
+ 	color: #000
+ }
+ 
+ .btn {
+ 	width: 265px;
+ 	height: 207px;
+ 	background: url(../img/go.png) center no-repeat;
+ 	border: none;
+ 	margin: auto;
+ 	display: block;
+ 	margin-top: 50px;
+ }

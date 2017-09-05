@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no">
+		<meta http-equiv="x-rim-auto-match" content="none">
+		<title>你的情人节故事</title>
+		<script src="js/viewport.js"></script>
+
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+
+	<body>
+		<div class="main" id="getIndex">
+			<div class="top_bg">
+			</div>
+			<div class="center_bg">
+				<div class="heart"></div>
+				<div class="title"></div>
+				<div class="input_title"></div>
+
+				<input id="getUsername" type="text" class="t-input" maxlength="5" />
+				<div class="radio_box" id="radio01">
+					<!--隐藏表单 radioVal 的值即为选中项li的id值-->
+					<input id="sex_value" type="hidden" value="" class="radioVal" name="" />
+					<ul>
+						<li id="r1" class="selected"><img src="img/boy.png" /></li>
+						<li id="r2"><img src="img/girl.png" /></li>
+					</ul>
+				</div>
+				<button id="goButton" class="btn" type="submit"></button>
+
+			</div>
+			<div class="footer_bg"></div>
+		</div>
+
+		<div class="answer" id="getAnswer">
+			<div class="button02"></div>
+			<div class="top_bg">
+			</div>
+			<div class="center_bg" id="getImage">
+				<!--<img  class="center_bg_img" src="img/01.png" />-->
+
+			</div>
+			<div class="footer_bg"></div>
+			<button id="aginButton" class="agin_button" type="submit"></button>
+		</div>
+
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="js/qwest.min.js"></script>
+		<script type="text/javascript" src="js/tool.js"></script>
+		<script src="js/JQRadio.js"></script>
+		<script type="text/javascript" src="js/main.js?v=201721305"></script>
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "https://hm.baidu.com/hm.js?5124a8ef44ed9e54556da31c82fffa2f";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+	</body>
+
+</html>
