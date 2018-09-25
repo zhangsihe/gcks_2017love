@@ -450,7 +450,7 @@ class Love{
         }else{
             $json = [
                 'status' => 200,
-                'url'    => 'http://47.93.249.184/gcks_2017love/2017love/generate/'.$this->d_time.'/'.$filename
+                'url'    => 'http://39.106.211.129/gcks_2017love/2017love/generate/'.$this->d_time.'/'.$filename
             ];
         }
         echo json_encode($json);
